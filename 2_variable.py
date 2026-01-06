@@ -1,0 +1,87 @@
+nama = "Mahmuddin"
+usia = 22
+
+print("Nama : " + str(nama) + " Usia : " + str(usia))
+
+#Bilangan dengan koma
+berat = 65.7
+tinggi = 175.7
+pi = 3.14159
+suhu = 36.6
+print(type(berat))
+print(type(tinggi))
+print(type(pi))
+print(type(suhu))
+
+#Notasi scientific
+speed_of_light = 2.998e8 # 299.8 * 10^8 = 299800000
+very_small = 1e-10 # 1 * 10^-10 = 0.0000000001
+print(type(speed_of_light))
+print(type(very_small))
+
+#Bilangan bulat
+jumlah_barang = 10
+stok_gudang = 150
+tahun_terbit = 2023
+print(type(jumlah_barang))
+print(type(stok_gudang))
+print(type(tahun_terbit))
+
+#Bilangan kompleks
+z = 2 + 3j
+print(z)
+print(type(z))
+
+#String dengan single quote
+nama = 'Mahmuddin'
+print(nama)
+print(type(nama))
+
+#String dengan double quote 
+nama = "Mahmuddin"
+print(nama)
+print(type(nama))
+
+#String dengan triple quote
+alamat = """Jl. Merdeka No. 123,
+Jakarta, Indonesia"""
+print(alamat)
+print(type(alamat))
+
+#String kosong
+nama = ""
+print(nama)
+print(type(nama))
+
+#Tipe data boolean
+is_student = True
+is_active = False
+print(is_student)
+print(is_active)
+print(type(is_student))
+print(type(is_active))
+
+#Multiple Assignment
+x = y = z = 10 #Semua variabel akan memiliki nilai yang sama
+a, b, c = 1, 2, 3 #Setiap variabel akan memiliki nilai yang berbeda
+name, age, is_active = "Mahmuddin", 22, True #Variabel akan memiliki nilai yang berbeda
+
+#Mengubah nilai variabel
+x = 10
+y = 20
+print(x)
+print(y)
+x, y = y, x #Mengubah nilai variabel
+print(x)
+print(y)
+
+#Menggunakan variabel dalam operasi
+panjang = 10
+lebar = 20
+luas = panjang * lebar
+print("Luas persegi panjang : ", luas)
+
+nama_depan = "Mahmuddin"
+nama_belakang = "NF"
+nama_lengkap = nama_depan + " " + nama_belakang
+print("Nama Lengkap : ", nama_lengkap)
