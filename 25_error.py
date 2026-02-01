@@ -49,3 +49,37 @@ except ValueError:
     print("Input tidak valid")
 except ZeroDivisionError:
     print("Tidak bisa membagi dengan nol")
+except Exception as e:
+    print("Terjadi kesalahan: ", e)
+except:
+    print("Terjadi kesalahan lain")
+finally:
+    print("Selesai")
+
+
+print("====TRY-EXCEPT-ELSE====")
+
+try:
+    angka = int(input("Masukkan angka: "))
+except ValueError:
+    print("Input tidak valid")
+else:
+    print("Angka yang Anda masukkan: " , angka)
+    if angka > 0:
+        print("Angka positif")
+    elif angka < 0:
+        print("Angka negatif")
+    else:
+        print("Angka nol")
+finally:
+    print("Selesai")
+
+print("====TRY-EXCEPT-FINALLY====")
+
+try:
+    angka = int(input("Masukkan angka: "))
+    print("Angka yang Anda masukkan: " , angka)
+except ValueError:
+    print("Input tidak valid")
+finally:
+    print("Selesai")
