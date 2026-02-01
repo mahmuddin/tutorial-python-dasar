@@ -1,21 +1,21 @@
 buah = {"apel", "pisang", "mangga"}
-print(buah)
+print("Buah: ", buah)
 
 # menambahkan data
 buah.add("semangka")
-print(buah)
+print("Buah: ", buah)
 
 # menghapus data
 buah.remove("pisang")
-print(buah)
+print("Buah: ", buah)
 
 # mengiterasi data
 for e in buah:
-    print(e)
+    print("Buah: ", e)
     
 # Jika ingin mengosongkan isi set tanpa menghapus variabelnya, gunakan:
 buah.clear()
-print(buah)
+print("Buah: ", buah)
 
 # menghapus set
 del buah

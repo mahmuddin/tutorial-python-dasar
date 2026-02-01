@@ -8,58 +8,58 @@ berat = 65.7
 tinggi = 175.7
 pi = 3.14159
 suhu = 36.6
-print(type(berat))
-print(type(tinggi))
-print(type(pi))
-print(type(suhu))
+print("Tipe data dari berat: ", type(berat))
+print("Tipe data dari tinggi: ", type(tinggi))
+print("Tipe data dari pi: ", type(pi))
+print("Tipe data dari suhu: ", type(suhu))
 
 #Notasi scientific
 speed_of_light = 2.998e8 # 299.8 * 10^8 = 299800000
 very_small = 1e-10 # 1 * 10^-10 = 0.0000000001
-print(type(speed_of_light))
-print(type(very_small))
+print("Tipe data dari speed_of_light: ",type(speed_of_light))
+print("Tipe data dari very_small: ", type(very_small))
 
 #Bilangan bulat
 jumlah_barang = 10
 stok_gudang = 150
 tahun_terbit = 2023
-print(type(jumlah_barang))
-print(type(stok_gudang))
-print(type(tahun_terbit))
+print("Tipe data dari jumlah_barang: ", type(jumlah_barang))
+print("Tipe data dari stok_gudang: ",type(stok_gudang))
+print("Tipe data dari tahun_terbit: ",type(tahun_terbit))
 
 #Bilangan kompleks
 z = 2 + 3j
-print(z)
-print(type(z))
+print("Nilai z: ",z)
+print("Tipe data dari z:", type(z))
 
 #String dengan single quote
 nama = 'Mahmuddin'
-print(nama)
-print(type(nama))
+print("Nama: ", nama)
+print("Tipe data dari nama: ", type(nama))
 
 #String dengan double quote 
 nama = "Mahmuddin"
-print(nama)
-print(type(nama))
+print("Nama: ", nama)
+print("Tipe data dari nama: ", type(nama))
 
 #String dengan triple quote
 alamat = """Jl. Merdeka No. 123,
 Jakarta, Indonesia"""
-print(alamat)
-print(type(alamat))
+print("Alamat: ", alamat)
+print("Tipe data dari alamat: ", type(alamat))
 
 #String kosong
 nama = ""
-print(nama)
-print(type(nama))
+print("Nama: ", nama)
+print("Tipe data dari nama: ", type(nama))
 
 #Tipe data boolean
 is_student = True
 is_active = False
-print(is_student)
-print(is_active)
-print(type(is_student))
-print(type(is_active))
+print("Apakah is_student: ", is_student)
+print("Apakah is_active: ", is_active)
+print("Tipe data dari is_student: ", type(is_student))
+print("Tipe data dari is_active: ", type(is_active))
 
 #Multiple Assignment
 x = y = z = 10 #Semua variabel akan memiliki nilai yang sama
@@ -72,8 +72,8 @@ y = 20
 print(x)
 print(y)
 x, y = y, x #Mengubah nilai variabel
-print(x)
-print(y)
+print("nilai x setelah diubah: ", x)
+print("nilai y setelah diubah: ",y)
 
 #Menggunakan variabel dalam operasi
 panjang = 10

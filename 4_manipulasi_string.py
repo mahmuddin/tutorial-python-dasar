@@ -7,51 +7,51 @@ umur = 25
 
 # Cara yang benar
 pesan = "Nama saya " + nama + ", umur saya " + str(umur)
-print(pesan)
+print("Pesan: ", pesan)
 
 #String method
 print("String method:")
-print(nama.upper()) # MAHMUDDIN
-print(nama.lower()) # mahmuddin
-print(nama.capitalize()) # Mahmuddin
-print(len(nama)) # 9
-print(len(pesan)) # 33
-print(pesan.title()) # Nama Saya Mahmuddin, Umur Saya 25 (mengubah huruf awal menjadi huruf besar)
-print(pesan.strip()) # Nama saya Mahmuddin, umur saya 25 (menghapus spasi di awal dan akhir string)
-print(pesan.replace("Mahmuddin", "NF")) # Nama saya NF, umur saya 25 (mengganti Mahmuddin dengan NF)
-print(pesan.find("Mahmuddin")) # 10 (mencari posisi dari Mahmuddin)
-print(pesan.count("a")) # 7 (mencari jumlah huruf a)
-print(pesan.split(" ")) # ['Nama', 'saya', 'Mahmuddin', 'Umur', 'saya', '25'] (memisahkan string berdasarkan spasi)
-print(pesan.startswith("Nama")) # True (memeriksa apakah string dimulai dengan "Nama")
-print(pesan.endswith("25")) # True (memeriksa apakah string diakhiri dengan "25")
-print(pesan.isnumeric()) # False
-print(pesan.isalpha()) # False  
-print(pesan.isalnum()) # False
-print(pesan.isdigit()) # False
-print(pesan.islower()) # False
-print(pesan.isupper()) # False
-print(pesan.istitle()) # False
-print(pesan.isspace()) # False
+print("Nama: ", nama.upper()) # MAHMUDDIN
+print("Nama: ", nama.lower()) # mahmuddin
+print("Nama: ", nama.capitalize()) # Mahmuddin
+print("Panjang nama: ", len(nama)) # 9
+print("Panjang pesan: ", len(pesan)) # 33
+print("Pesan: ", pesan.title()) # Nama Saya Mahmuddin, Umur Saya 25 (mengubah huruf awal menjadi huruf besar)
+print("Pesan: ", pesan.strip()) # Nama saya Mahmuddin, umur saya 25 (menghapus spasi di awal dan akhir string)
+print("Pesan: ", pesan.replace("Mahmuddin", "NF")) # Nama saya NF, umur saya 25 (mengganti Mahmuddin dengan NF)
+print("Posisi Mahmuddin: ", pesan.find("Mahmuddin")) # 10 (mencari posisi dari Mahmuddin)
+print("Jumlah huruf a: ", pesan.count("a")) # 7 (mencari jumlah huruf a)
+print("Pesan: ", pesan.split(" ")) # ['Nama', 'saya', 'Mahmuddin', 'Umur', 'saya', '25'] (memisahkan string berdasarkan spasi)
+print("Pesan dimulai dengan Nama: ", pesan.startswith("Nama")) # True (memeriksa apakah string dimulai dengan "Nama")
+print("Pesan diakhiri dengan 25: ", pesan.endswith("25")) # True (memeriksa apakah string diakhiri dengan "25")
+print("Pesan numerik: ", pesan.isnumeric()) # False
+print("Pesan alfabet: ", pesan.isalpha()) # False  
+print("Pesan alfanumerik: ", pesan.isalnum()) # False
+print("Pesan digit: ", pesan.isdigit()) # False
+print("Pesan huruf kecil: ", pesan.islower()) # False
+print("Pesan huruf besar: ", pesan.isupper()) # False
+print("Pesan title: ", pesan.istitle()) # False
+print("Pesan spasi: ", pesan.isspace()) # False
 
 #Manipulasi string
 print("Manipulasi string:")
 jalan = "Jl. Merdeka No. 123, Jakarta, Indonesia"
-print(jalan.split(","))
-print(jalan.replace("Jakarta", "Bandung"))
-print(jalan.find("No."))
+print("Pesan: ", jalan.split(","))
+print("Pesan: ", jalan.replace("Jakarta", "Bandung"))
+print("Pesan: ", jalan.find("No."))
 
-print(jalan[0]) # J (karakter pertama)
-print(jalan[1]) # l (karakter kedua)
-print(jalan[2]) # . (karakter ketiga)
-print(jalan[-1]) # a (karakter terakhir)
-print(jalan[-2]) # i (karakter kedua dari belakang)
-print(jalan[-3]) # s (karakter ketiga dari belakang)
-print(jalan[:5]) # Jl. M (dari awal sampai index 4)
-print(jalan[:]) # Jl. Merdeka No. 123, Jakarta, Indonesia (dari awal sampai akhir)
-print(jalan[2:]) # . Merdeka No. 123, Jakarta, Indonesia (dari index 2 sampai akhir)
-print(jalan[0:3]) # Jl. (karakter pertama hingga ketiga)
-print(jalan[0:5]) # Jl. M (karakter pertama hingga kelima)
-print(jalan[1:10]) # l. Merdek (karakter kedua hingga sepuluh)
+print("Pesan: ", jalan[0]) # J (karakter pertama)
+print("Pesan: ", jalan[1]) # l (karakter kedua)
+print("Pesan: ", jalan[2]) # . (karakter ketiga)
+print("Pesan: ", jalan[-1]) # a (karakter terakhir)
+print("Pesan: ", jalan[-2]) # i (karakter kedua dari belakang)
+print("Pesan: ", jalan[-3]) # s (karakter ketiga dari belakang)
+print("Pesan: ", jalan[:5]) # Jl. M (dari awal sampai index 4)
+print("Pesan: ", jalan[:]) # Jl. Merdeka No. 123, Jakarta, Indonesia (dari awal sampai akhir)
+print("Pesan: ", jalan[2:]) # . Merdeka No. 123, Jakarta, Indonesia (dari index 2 sampai akhir)
+print("Pesan: ", jalan[0:3]) # Jl. (karakter pertama hingga ketiga)
+print("Pesan: ", jalan[0:5]) # Jl. M (karakter pertama hingga kelima)
+print("Pesan: ", jalan[1:10]) # l. Merdek (karakter kedua hingga sepuluh)
 
 #Escape character
 print("Escape character:")
@@ -75,10 +75,10 @@ print(f"Nama saya {nama}, umur saya {umur}") # Nama saya Mahmuddin, umur saya 25
 harga = 10000
 jumlah = 3
 total = f"Total: Rp {harga * jumlah:,}"
-print(total) # Total: Rp 30,000 (menggunakan f-string untuk operasi matematika)
+print("Total: ", total) # Total: Rp 30,000 (menggunakan f-string untuk operasi matematika)
 
 # Method calls dalam f-string
 nama = "Mahmuddin"
 salam = f"Halo {nama.upper()}"
-print(salam) # Halo MAHMUDDIN (menggunakan method upper())
+print("Salam: ", salam) # Halo MAHMUDDIN (menggunakan method upper())
     

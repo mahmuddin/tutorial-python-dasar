@@ -1,7 +1,7 @@
 # mencetak angka 1 sampai 10
 angka = 1
 while angka <= 10:
-    print(angka)
+    print("Angka: ", angka)
     angka += 1
 
 # Input sampai benar
